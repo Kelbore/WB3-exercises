@@ -16,11 +16,11 @@ addNumbers(4,8);
 addNumbers(2,5);
 
 function displayReceipt(totalDue, amountPaid) {
-  console.log('Total Due is:' + "$" + totalDue);
-  console.log('Amount Paid:' + "$" + amountPaid);
-  console.log('Change due is:' + "$" +(totalDue-amountPaid));
+  console.log(`Total Due is: $${totalDue}`);
+  console.log(`Amount Paid: $${amountPaid}`);
+  console.log(`Change due is: $${Math.abs(totalDue-amountPaid)}`);
   if(amountPaid < totalDue) {
-    console.log('The ramaining balance is:' + "$" + (totalDue-amountPaid));
+    console.log(`The ramaining balance is: $${(totalDue-amountPaid)}`);
   }
 }
 
