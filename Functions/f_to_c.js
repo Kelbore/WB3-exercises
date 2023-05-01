@@ -5,4 +5,4 @@ function convertFtoc(tempInFahrenheit) {
 
 let tempInFahrenheit = 212;
 let tempInCelsius = convertFtoc(tempInFahrenheit);
-console.log(tempInCelsius);
+console.log(`${tempInFahrenheit} degree fahrenheit is equal to ${tempInCelsius} degree celsius`);

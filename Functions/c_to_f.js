@@ -5,4 +5,4 @@ function convertCtoF(tempInCelsius) {
 
 let tempInCelsius = 100;
 let tempInFahrenheit = convertCtoF(tempInCelsius);
-console.log(tempInFahrenheit);
+console.log(`${tempInCelsius} degree celsius is equal to ${tempInFahrenheit} degree fahrenheit`);
