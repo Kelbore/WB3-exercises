@@ -34,7 +34,7 @@ function getFederalTax(grossPay3, code) {
     return federalTax;
   }
   else if(code >= 4){
-    let rate = 18-((code-4)*0.005);
+    let rate = (18-0.5*(code-4))/100;
     let federalTax = grossPay3*rate;
     return federalTax;
   }
